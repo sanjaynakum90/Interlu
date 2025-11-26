@@ -1,16 +1,66 @@
-# React + Vite
+Interilu — Interior Design Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, elegant, and fully responsive Interior Design Website built with React and Vite.
+The website showcases interior design projects, services, and workflows using a clean UI, smooth layouts, and structured components.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Include link here if you have one
+https://interlu.vercel.app/
 
-## React Compiler
+📌 Features
+🌟 Hero Section
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Beautiful landing banner with call-to-action buttons.
 
-## Expanding the ESLint configuration
+🏛 About & Vision
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Explains brand philosophy, values, and interior-design expertise.
+
+🖼 Project Gallery
+
+Grid-based image showcase highlighting design aesthetics.
+
+⚙️ Services Section
+
+Includes Planning, Lighting, Furniture, Consultation, Renovation, etc.
+
+🔄 Design Process
+
+Three-step workflow: Vision Discovery → Design & Visualization → Execution & Transformation.
+
+📬 Newsletter / Contact
+
+Prompt for users to connect or request a quote.
+
+🦶 Footer
+
+<img width="1920" height="9061" alt="image" src="https://github.com/user-attachments/assets/d2bba0d1-5a41-4e89-971f-f484056c190a" />
+
+
+Includes company details, product links, gallery preview, and social info.
+
+🧩 Tech Stack
+Category	Technologies
+Frontend	React.js, Vite
+Styling	React-Bootstraop
+Build Tool	Vite
+Assets	Static image assets stored in /public
+📂 Project Structure
+src/
+ ├── assets/
+ ├── Components/
+ │   ├── About.jsx
+ │   ├── Footer.jsx
+ │   ├── Gallery.jsx
+ │   ├── HeroSlider.jsx
+ │   ├── Navbar.jsx
+ │   ├── NewsLatter.jsx
+ │   ├── Process.jsx
+ │   ├── Project.jsx
+ │   ├── Services.jsx
+ │   └── Vision.jsx
+ ├── App.jsx
+ ├── index.css
+ ├── main.jsx
+ └── style.css
