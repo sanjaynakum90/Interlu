@@ -9,6 +9,8 @@ export default function Footer() {
         "footer-img-1.jpg",
         "footer-img-2.jpg",
     ]
+    const social = ["x-twitter", "facebook-f", "instagram", "linkedin-in"];
+
     return (
         <footer className="footer bg-dark text-white">
             <Container>
@@ -35,21 +37,13 @@ export default function Footer() {
                             <h6 className="text-uppercase mb-3 text-light">Connect With Us</h6>
 
                             <div className="d-flex align-items-center social-media gap-3">
-                                <a href="https://twitter.com" >
-                                    <div className="icon-back"><i className="fab fa-x-twitter"></i></div>
-                                </a>
-
-                                <a href="https://facebook.com" >
-                                    <div className="icon-back"><i className="fab fa-facebook-f"></i></div>
-                                </a>
-
-                                <a href="https://instagram.com" >
-                                    <div className="icon-back"><i className="fab fa-instagram"></i></div>
-                                </a>
-
-                                <a href="https://linkedin.com" >
-                                    <div className="icon-back "><i className="fab fa-linkedin-in "></i></div>
-                                </a>
+                                {social.map((icon, i) => (
+                                    <a key={i} href="#" className="text-decoration-none">
+                                        <div className="icon-back">
+                                            <i className={`fab fa-${icon}`}></i>
+                                        </div>
+                                    </a>
+                                ))}
                             </div>
                         </div>
                     </Col>
@@ -106,7 +100,7 @@ export default function Footer() {
                     <Col lg={6} className="text-center text-lg-start mb-3 mb-lg-0">
                         <p className="text-white mb-0">
                             <span className="opacity-50">&copy; {new Date().getFullYear()}</span>
-                            <a href="" className="text-light text-decoration-none">Mantraksh Devs</a>
+                            <a href="" className="text-light text-decoration-none">Sanjay Nakum</a>
                             <span className="fw-bold text-white opacity-75">Interilu</span>
                             <span className="opacity-50">- All Rights Reserved. Crafted with</span>
                             <span className="text-danger">❤</span>
