@@ -1,4 +1,9 @@
-Interilu — Interior Design Website
+**Interilu — Interior Design Website**
+
+
+
+<img width="1920" height="9061" alt="image" src="https://github.com/user-attachments/assets/4abb1460-b029-4b16-9c04-818e7d36f0ea" />
+
 
 A modern, elegant, and fully responsive Interior Design Website built with React and Vite.
 The website showcases interior design projects, services, and workflows using a clean UI, smooth layouts, and structured components.
@@ -35,7 +40,6 @@ Prompt for users to connect or request a quote.
 
 🦶 Footer
 
-<img width="1920" height="9061" alt="image" src="https://github.com/user-attachments/assets/d2bba0d1-5a41-4e89-971f-f484056c190a" />
 
 
 Includes company details, product links, gallery preview, and social info.
