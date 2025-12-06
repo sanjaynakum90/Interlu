@@ -53,6 +53,7 @@ Assets	Static image assets stored in /public
 📂 Project Structure
 src/
  ├── assets/
+ <br/>
  ├── Components/
  │   ├── About.jsx
  │   ├── Footer.jsx
