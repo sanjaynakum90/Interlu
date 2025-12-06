@@ -51,21 +51,38 @@ Styling	React-Bootstraop
 Build Tool	Vite
 Assets	Static image assets stored in /public
 📂 Project Structure
+<br/>
 src/
+<br/>
  ├── assets/
  <br/>
  ├── Components/
+ <br/>
  │   ├── About.jsx
+ <br/>
  │   ├── Footer.jsx
+ <br/>
  │   ├── Gallery.jsx
+<br/>
  │   ├── HeroSlider.jsx
+ <br/>
  │   ├── Navbar.jsx
+ <br/>
  │   ├── NewsLatter.jsx
+ <br/>
  │   ├── Process.jsx
+ <br/>
  │   ├── Project.jsx
+ <br/>
  │   ├── Services.jsx
+ <br/>
  │   └── Vision.jsx
+ <br/>
  ├── App.jsx
+ <br/>
  ├── index.css
+ <br/>
  ├── main.jsx
+ <br/>
  └── style.css
+ <br/>
